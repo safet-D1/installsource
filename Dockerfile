@@ -1,6 +1,6 @@
-FROM safet-D1/SA-FET/tree/main/mmmm:slim-buster
+FROM safet-D1/SA-FET:slim-buster
 
-RUN git clone https://github.com/safet-D1/SA-FET/tree/main/mmmm /root/zthon
+RUN git clone https://github.com/safet-D1/SA-FET.git /root/zthon
 
 WORKDIR /root/zthon
 
